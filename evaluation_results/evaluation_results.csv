@@ -1,0 +1,101 @@
+﻿query,category,language,lang_code,ground_truth_answer,generated_answer,bleu,rouge1,rouge2,rougeL,generation_time,answer_length
+How can I save money effectively?,savings,English,en,"Save money by creating a monthly budget, tracking expenses, setting up automatic transfers to savings, reducing impulse purchases, and keeping emergency funds. Start with small amounts and gradually i..."," Spend less on parties and festivals 
+ Lower expenses on life events such as marriages and funerals 
+ Save enough to buy necessities in larger amounts at lower costs 
+ Plan ahead to buy necessitie...",0.0067755865182900004,0.20952380952380956,0.019417475728155338,0.09523809523809525,0.9902787208557129,80
+What are good savings habits?,savings,English,en,"Good savings habits include paying yourself first by saving before spending, setting specific financial goals, avoiding unnecessary debt, comparing prices before purchases, and regularly reviewing you...","Category: Budgeting & Saving
+
+Question: What are affordable saving habits for families?
+
+Answer: Start small, set clear goals, and keep savings separate to avoid spending them by mistake. [Source: NGO...",0.009188355573937162,0.3728813559322034,0.03508771929824562,0.20338983050847456,0.17324066162109375,33
+Why is it important to save money?,savings,English,en,"Saving money is important for financial security, emergency preparedness, achieving future goals, and reducing financial stress. It provides a safety net and enables you to handle unexpected expenses.","Category: Budgeting & Saving
+
+Question: Why is budgeting important?
+
+Answer: It helps you control spending, avoid debt, and save for future needs.",0.010757817373436241,0.32653061224489793,0.0,0.20408163265306123,0.14218854904174805,22
+What is a budget and why is it important?,budget,English,en,"A budget is a financial plan that tracks income and expenses. It's important because it helps control spending, achieve financial goals, avoid debt, and ensure money is allocated wisely across needs, ...","Category: Budgeting & Saving
+
+Question: Why is budgeting important?
+
+Answer: It helps you control spending, avoid debt, and save for future needs.",0.03786981663825009,0.42857142857142855,0.18518518518518517,0.39285714285714285,0.148728609085083,22
+How do I create my first budget?,budget,English,en,"To create your first budget, list all monthly income sources, categorize expenses (housing, food, transport, etc.), track spending for one month, compare income to expenses, adjust spending to match i...","Category: Budgeting & Saving
+
+Question: How can I start a household budget?
+
+Answer: Make a simple list of income and expenses, set priorities, and save a small fixed amount every time you receive mon...",0.006893281774601134,0.17391304347826086,0.02985074626865672,0.14492753623188404,0.11820864677429199,38
+What are common budgeting mistakes?,budget,English,en,"Common budgeting mistakes include not tracking small expenses, being too restrictive, forgetting irregular costs, not adjusting for changes, and giving up after one bad month. Review and adjust your b..."," Make decisions about spending, and saving and investing more in the business 
+ 
+ 
+It is important to keep track of all your expe nses, e.g. keeping a book where you record all your 
+daily expenses. ...",0.0031654205992871992,0.11282051282051284,0.010362694300518135,0.08205128205128205,0.12604594230651855,164
+What should I know before taking a loan?,loans,English,en,"Before taking a loan, understand the interest rate, repayment period, monthly payment amount, total cost including fees, your ability to repay, penalties for late payment, and whether the loan is nece...","Know how the loan will help you. 
+What are the costs of taking this loan? 
+ 
+Know all the costs and terms associated with 
+the loan, especially the penalties for late 
+payment and refinancing. 
+Can I ...",0.01816325046207727,0.319327731092437,0.10256410256410257,0.18487394957983194,0.17655682563781738,83
+How do interest rates work on loans?,loans,English,en,"Interest rates represent the cost of borrowing money, calculated as a percentage of the loan amount. Higher rates mean more expensive loans. Fixed rates stay constant while variable rates can change. ...","Category: Credit & Loans
+
+Question: What is an interest rate?
+
+Answer: An interest rate is the cost of borrowing money, shown as a percentage of the loan each year. [Source: IMF]",0.20678279831299898,0.48571428571428565,0.29411764705882354,0.37142857142857144,0.15208220481872559,31
+What happens if I miss a loan payment?,loans,English,en,"Missing loan payments can result in late fees, increased interest rates, damage to credit score, and possible legal action. Contact your lender immediately if you cannot make a payment to discuss alte...","Invite a number of volunteers to answer.  Make the following points if the participants omit them. 
+ 
+a) Debt is costly.   
+ When payments are missed, the loan costs grow even higher.   
+ Failure to...",0.007034887381787161,0.26153846153846155,0.046875,0.13846153846153847,0.15283846855163574,101
+What is mobile money and how does it work?,mobile_money,English,en,"Mobile money is a digital payment service that allows financial transactions through mobile phones. Users can send and receive money, pay bills, buy airtime, and make purchases without visiting a bank...","Category: Banking & Mobile Money
+
+Question: What is mobile money?
+
+Answer: It is a service that allows sending, receiving, and storing money using a phone.",0.043046883388112515,0.5517241379310345,0.14285714285714288,0.3793103448275862,0.1663506031036377,25
+Is mobile money safe to use?,mobile_money,English,en,"Mobile money is generally safe when using official services and following security practices: keep PINs confidential, verify transaction details before confirming, use trusted agents, monitor account ...","Category: Banking & Mobile Money
+
+Question: How secure is mobile money compared to a bank?
+
+Answer: Both can be secure if you protect your PIN and phone; banks may offer deposit protection while mobil...",0.024575084340728998,0.16901408450704225,0.05797101449275362,0.16901408450704225,0.1312549114227295,40
+What are the benefits of mobile money?,mobile_money,English,en,"Mobile money benefits include convenient transactions anytime anywhere, no need for bank account, lower transaction costs, quick money transfers, bill payment options, and financial inclusion for unba...","Category: Banking & Mobile Money
+
+Question: What is mobile money?
+
+Answer: It is a service that allows sending, receiving, and storing money using a phone.",0.01689756859802124,0.1923076923076923,0.039999999999999994,0.15384615384615383,0.1281886100769043,25
+What do I need to open a bank account?,banking,English,en,"To open a bank account, you typically need valid identification (ID card or passport), proof of address, initial deposit amount, and completed application forms. Requirements vary by bank and account ...","Category: Banking & Mobile Money
+
+Question: How do I open a bank account?
+
+Answer: Visit a bank with ID and required documents like proof of residence.",0.040581074822908035,0.3571428571428571,0.14814814814814814,0.25,0.17354059219360352,26
+What are the different types of bank accounts?,banking,English,en,"Common bank account types include savings accounts for earning interest on deposits, checking accounts for daily transactions, fixed deposit accounts for higher interest with locked funds, and busines...","Category: Banking & Mobile Money
+
+Question: What is a bank account?
+
+Answer: It is a safe place to keep money, offered by banks.",0.005600266950120387,0.07407407407407407,0.03846153846153846,0.07407407407407407,0.15596508979797363,23
+What fees do banks charge?,banking,English,en,"Banks charge various fees including monthly maintenance fees, ATM withdrawal fees, overdraft fees, transfer fees, and card replacement fees. Compare fee structures when choosing a bank.","Category: Banking & Mobile Money
+
+Question: What are bank charges?
+
+Answer: They are fees banks charge for services like withdrawals or account maintenance.",0.01701309219713728,0.24999999999999994,0.043478260869565216,0.16666666666666669,0.1396617889404297,23
+Kodi ndingathe kusunga ndalama bwanji?,savings,Chichewa,ny,"Sunganichani ndalama ndi kupanga pulani ya ndalama, kusiya ndalama pang'ono pang'ono, kuchepetsa kuwononga, kupanga tsiku lopeza ndalama, ndipo musunge ndalama za mwadzidzidzi."," Awonongerani zochepa pamaphwando ndi zikondwerero 
+ Ndalama zotsika pamoyo monga maukwati ndi maliro 
+ Sungani zokwanira kugula zofunikira pamitengo yotsika mtengo 
+Kukonzekeretsa kuti mugule zofu...",0.004625479698079485,0.18421052631578946,0.0,0.15789473684210525,3.842026472091675,59
+Kodi bajeti ndi chiyani?,budget,Chichewa,ny,Bajeti ndi pulani ya ndalama yomwe imathandiza kuyang'anira ndalama. Imaphatikizapo ndalama zonse zomwe mumalandira ndi zomwe mumawononga mwezi uliwonse.,"Gawo: Kuchulukana & Kupulumutsa
+
+Funso: Kodi bajeti ndi chiyani?
+
+Yankho: Bajeti ndi dongosolo lomwe limawonetsa momwe mungagwiritsire ntchito ndikusunga ndalama zanu.",0.02297185935845028,0.20000000000000004,0.05263157894736842,0.15,3.9718055725097656,21
+Kodi ngongole ndi chiyani?,loans,Chichewa,ny,"Ngongole ndi ndalama zomwe munabwereka ndipo muyenera kubweza ndi chiwongoladzanja. Funsani za chiwongoladzanja, nthawi yobweza, ndi chikhalidwe cha kubweza ngongole.","Gawo: Zoyambira Zosavuta
+
+Funso: Kodi mgwirizano ndi chiyani?
+
+Yankho: Mgwirizano ndi ngongole yomwe mumapereka kwa boma kapena kampani yomwe imalipira chiwongola dzanja. [Duwerutsani: Kuwononga Ndala...",0.009970222994544455,0.17777777777777778,0.0,0.1333333333333333,3.9204041957855225,25
+Kodi mobile money ndi chiyani?,mobile_money,Chichewa,ny,"Mobile money ndi njira yolipira pogwiritsa ntchito foni yanu. Mutha kutumiza ndalama, kulipira ngongole, kugula ndi kusunga ndalama popanda kupita kubanki.","Gawo: Banking & Ndalama
+
+Funso: Kodi ndalama ndi ndalama zingati?
+
+Yankho: Ndi ntchito yomwe imalola kutumiza, kulandira, ndi kusunga ndalama pogwiritsa ntchito foni.",0.0539471088086188,0.4186046511627907,0.1951219512195122,0.2790697674418604,3.811725616455078,23
+Kodi ndingatsegule banki akaunti bwanji?,banking,Chichewa,ny,"Kuti mutsegule banki akaunti, muyenera kukhala ndi ID, umboni wa malo omwe mumakhala, ndalama zoyambira, ndi kudzaza fomu. Mafunsidwe amasiyana malinga ndi banki.","Gawo: Banking & Ndalama
+
+Funso: Kodi ndimatsegula bwanji akaunti yakubanki?
+
+Yankho: Pitani ku banki ndi ID ndi zikalata zofunika ngati umboni wokhala.",0.01241353433412775,0.31818181818181823,0.04761904761904762,0.1818181818181818,3.422373056411743,22

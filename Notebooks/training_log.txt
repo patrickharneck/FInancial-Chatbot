@@ -1,0 +1,57 @@
+2025-10-22 17:07:16,519 - INFO - Class distribution - Positive: 425, Negative: 850
+2025-10-22 17:07:16,979 - INFO - Precision: 0.3333, Recall: 1.0000, F1 Score: 0.5000
+2025-10-22 19:30:11,499 - INFO - Use pytorch device_name: cpu
+2025-10-22 19:30:11,509 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-22 21:24:58,745 - INFO - Class distribution - Positive: 425, Negative: 850
+2025-10-22 21:24:59,252 - INFO - Precision: 0.3333, Recall: 1.0000, F1 Score: 0.5000
+2025-10-22 21:27:56,678 - INFO - Class distribution - Positive: 425, Negative: 850
+2025-10-22 21:27:57,310 - INFO - Precision: 0.3333, Recall: 1.0000, F1 Score: 0.5000
+2025-10-22 21:30:02,369 - INFO - Class distribution - Positive: 425, Negative: 850
+2025-10-22 21:30:02,923 - INFO - Precision: 0.3333, Recall: 1.0000, F1 Score: 0.5000
+2025-10-22 21:55:36,645 - INFO - Use pytorch device_name: cpu
+2025-10-22 21:55:36,663 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 22:01:03,791 - INFO - Class distribution - Positive: 331, Negative: 558
+2025-10-22 22:01:04,501 - INFO - Precision: 0.3723, Recall: 1.0000, F1 Score: 0.5426
+2025-10-22 22:06:06,672 - INFO - Use pytorch device_name: cpu
+2025-10-22 22:06:06,683 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 22:08:11,525 - INFO - Class distribution - Positive: 306, Negative: 446
+2025-10-22 22:08:12,058 - INFO - Precision: 0.4069, Recall: 1.0000, F1 Score: 0.5784
+2025-10-22 22:09:27,031 - INFO - Use pytorch device_name: cpu
+2025-10-22 22:09:27,037 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 22:11:38,898 - INFO - Class distribution - Positive: 260, Negative: 369
+2025-10-22 22:11:39,250 - INFO - Precision: 0.4134, Recall: 1.0000, F1 Score: 0.5849
+2025-10-22 22:12:53,921 - INFO - Use pytorch device_name: cpu
+2025-10-22 22:12:53,932 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 22:15:22,181 - INFO - Class distribution - Positive: 364, Negative: 646
+2025-10-22 22:15:22,480 - INFO - Precision: 0.3604, Recall: 1.0000, F1 Score: 0.5298
+2025-10-22 22:23:15,849 - INFO - Use pytorch device_name: cpu
+2025-10-22 22:23:15,868 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 22:27:02,726 - INFO - Use pytorch device_name: cpu
+2025-10-22 22:27:02,740 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 22:28:48,004 - INFO - Class distribution - Positive: 331, Negative: 558
+2025-10-22 22:28:48,280 - INFO - Precision: 0.3723, Recall: 1.0000, F1 Score: 0.5426
+2025-10-22 22:38:12,630 - INFO - Use pytorch device_name: cpu
+2025-10-22 22:38:12,640 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-22 23:24:28,197 - INFO - Use pytorch device_name: cpu
+2025-10-22 23:24:28,207 - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v1
+2025-10-22 23:36:07,418 - INFO - Class distribution - Positive: 331, Negative: 558
+2025-10-22 23:36:07,522 - INFO - Precision: 0.3723, Recall: 1.0000, F1 Score: 0.5426
+2025-10-22 23:36:49,578 - INFO - Use pytorch device_name: cpu
+2025-10-22 23:36:49,581 - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v1
+2025-10-23 11:47:33,967 - INFO - Class distribution - Positive: 331, Negative: 558
+2025-10-23 11:47:34,184 - INFO - Precision: 0.3723, Recall: 1.0000, F1 Score: 0.5426
+2025-10-23 11:57:35,734 - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v1
+2025-10-23 12:02:46,706 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:02:46,706 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-23 12:28:16,336 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:28:16,341 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-23 12:36:19,991 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:36:19,995 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-23 12:40:58,913 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:40:58,919 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-23 12:43:19,204 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:43:19,204 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-23 12:45:15,142 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:45:15,150 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-10-23 12:47:37,568 - INFO - Use pytorch device_name: cpu
+2025-10-23 12:47:37,568 - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2

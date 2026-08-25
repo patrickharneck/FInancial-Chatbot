@@ -1,0 +1,136 @@
+{
+  "overall": {
+    "total_queries": 20,
+    "bleu": 0.027913669506275725,
+    "rouge1": 0.27919294301585873,
+    "rouge2": 0.07448746265093817,
+    "rougeL": 0.19561684611834426,
+    "avg_generation_time": 1.1021732568740845,
+    "avg_answer_length": 44.3
+  },
+  "by_language": {
+    "English": {
+      "count": 15,
+      "bleu": 0.030289678995446247,
+      "rouge1": 0.28567227245859983,
+      "rouge2": 0.07962511168218904,
+      "rougeL": 0.20068139352876027
+    },
+    "Chichewa": {
+      "count": 5,
+      "bleu": 0.020785641038764152,
+      "rouge1": 0.2597549546876352,
+      "rouge2": 0.059074515557185646,
+      "rougeL": 0.18042320388709615
+    }
+  },
+  "by_category": {
+    "savings": {
+      "count": 4,
+      "bleu": 0.007836809790935722,
+      "rouge1": 0.27328657600417505,
+      "rouge2": 0.01362629875660024,
+      "rougeL": 0.1651510738104341
+    },
+    "budget": {
+      "count": 4,
+      "bleu": 0.017725094592647178,
+      "rouge1": 0.22882624621755057,
+      "rouge2": 0.06950755117543211,
+      "rougeL": 0.19245899028507724
+    },
+    "loans": {
+      "count": 4,
+      "bleu": 0.06048778978785196,
+      "rouge1": 0.3110895640307405,
+      "rouge2": 0.11088918740573153,
+      "rougeL": 0.20702434820081878
+    },
+    "mobile_money": {
+      "count": 4,
+      "bleu": 0.03461666128387039,
+      "rouge1": 0.33291264147713995,
+      "rouge2": 0.10898752714235217,
+      "rougeL": 0.24531008765566067
+    },
+    "banking": {
+      "count": 4,
+      "bleu": 0.018901992076073362,
+      "rouge1": 0.24984968734968735,
+      "rouge2": 0.06942674877457486,
+      "rougeL": 0.16813973063973064
+    }
+  },
+  "problematic_queries": [
+    {
+      "query": "What are common budgeting mistakes?",
+      "category": "budget",
+      "language": "English",
+      "bleu": 0.0031654205992871992,
+      "rougeL": 0.08205128205128205
+    },
+    {
+      "query": "Kodi ndingathe kusunga ndalama bwanji?",
+      "category": "savings",
+      "language": "Chichewa",
+      "bleu": 0.004625479698079485,
+      "rougeL": 0.15789473684210525
+    },
+    {
+      "query": "What are the different types of bank accounts?",
+      "category": "banking",
+      "language": "English",
+      "bleu": 0.005600266950120387,
+      "rougeL": 0.07407407407407407
+    },
+    {
+      "query": "How can I save money effectively?",
+      "category": "savings",
+      "language": "English",
+      "bleu": 0.0067755865182900004,
+      "rougeL": 0.09523809523809525
+    },
+    {
+      "query": "How do I create my first budget?",
+      "category": "budget",
+      "language": "English",
+      "bleu": 0.006893281774601134,
+      "rougeL": 0.14492753623188404
+    },
+    {
+      "query": "What happens if I miss a loan payment?",
+      "category": "loans",
+      "language": "English",
+      "bleu": 0.007034887381787161,
+      "rougeL": 0.13846153846153847
+    },
+    {
+      "query": "What are good savings habits?",
+      "category": "savings",
+      "language": "English",
+      "bleu": 0.009188355573937162,
+      "rougeL": 0.20338983050847456
+    },
+    {
+      "query": "Kodi ngongole ndi chiyani?",
+      "category": "loans",
+      "language": "Chichewa",
+      "bleu": 0.009970222994544455,
+      "rougeL": 0.1333333333333333
+    },
+    {
+      "query": "Why is it important to save money?",
+      "category": "savings",
+      "language": "English",
+      "bleu": 0.010757817373436241,
+      "rougeL": 0.20408163265306123
+    },
+    {
+      "query": "Kodi ndingatsegule banki akaunti bwanji?",
+      "category": "banking",
+      "language": "Chichewa",
+      "bleu": 0.01241353433412775,
+      "rougeL": 0.1818181818181818
+    }
+  ]
+}

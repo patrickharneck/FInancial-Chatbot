@@ -1,0 +1,5 @@
+# Local Python virtual environment
+/chatbot/
+
+# Generated machine-learning models and indexes
+/models/
