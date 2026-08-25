@@ -293,7 +293,7 @@ def show_chatbot_page():
         with st.expander("🤖 Model Settings", expanded=True):
             use_groq = st.checkbox(
                 "Use Groq LLM", 
-                value=False, 
+                value=bool(Config.get_groq_api_key()),
                 key="use_groq_checkbox",
                 help="Enable advanced language model for better responses"
             )

@@ -7,6 +7,11 @@ Handles all paths, constants, and system configuration
 import os
 from pathlib import Path
 
+try:
+    import streamlit as st
+except ImportError:
+    st = None
+
 class Config:
     """Central configuration class"""
     
@@ -31,7 +36,7 @@ class Config:
     
     # LLM Configuration
     GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
-    GROQ_MODELS = ['llama-3.1-8b-instant', 'llama-3.1-70b-versatile', 'mixtral-8x7b-32768']
+    GROQ_MODELS = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant']
     DEFAULT_TEMPERATURE = 0.7
     DEFAULT_MAX_TOKENS = 3000
     DEFAULT_TIMEOUT = 45
@@ -118,8 +123,20 @@ class Config:
     
     @classmethod
     def get_groq_api_key(cls):
-        """Get Groq API key from environment"""
-        return os.environ.get('GROQ_API_KEY')
+        """Get the Groq API key from the environment or Streamlit secrets."""
+        api_key = os.environ.get('GROQ_API_KEY')
+        if api_key:
+            return api_key.strip()
+
+        if st is not None:
+            try:
+                api_key = st.secrets.get('GROQ_API_KEY')
+                if api_key:
+                    return str(api_key).strip()
+            except Exception:
+                pass
+
+        return None
     
     @classmethod
     def validate_paths(cls):

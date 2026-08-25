@@ -50,7 +50,9 @@ class GroqClient:
             'Content-Type': 'application/json'
         }
         
-        # Try each model until one works
+        errors = []
+
+        # Try each configured model until one works.
         for model in self.available_models:
             messages = []
             
@@ -78,18 +80,24 @@ class GroqClient:
                 
                 if response.status_code == 200:
                     data = response.json()
-                    if isinstance(data, dict) and 'choices' in data:
+                    if isinstance(data, dict) and data.get('choices'):
                         return data['choices'][0]['message']['content']
-                
-                elif response.status_code == 404:
-                    # Model not found, try next one
-                    continue
+
+                try:
+                    error_data = response.json()
+                    error_message = error_data.get('error', {}).get('message', response.text)
+                except ValueError:
+                    error_message = response.text
+                errors.append(f'{model}: HTTP {response.status_code} - {error_message}')
+
+                if response.status_code in (401, 403):
+                    break
                     
-            except Exception:
-                # Request failed, try next model
-                continue
+            except requests.RequestException as error:
+                errors.append(f'{model}: {error}')
         
-        raise Exception('No working Groq models found')
+        detail = '; '.join(errors) if errors else 'No response received from Groq.'
+        raise RuntimeError(f'Groq generation failed: {detail}')
     
     def expand_response(
         self, 
